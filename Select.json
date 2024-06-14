@@ -1,0 +1,5 @@
+{
+    "acao": "select",  
+    "tabela": "produtos", 
+    "condicao": "ID = 1"
+}

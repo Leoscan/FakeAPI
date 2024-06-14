@@ -1,0 +1,5 @@
+{
+    "acao": "delete",  
+    "tabela": "produtos", 
+    "condicao": "ID = (SELECT MAX(ID) FROM PRODUTOS)"
+}

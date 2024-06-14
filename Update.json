@@ -1,0 +1,9 @@
+{
+    "acao": "update",  
+    "tabela": "produtos", 
+    "condicao": "ID = 1",
+    "dados": {
+        "product_name": "Telefone 1",
+        "product_description": "Telefone da marca Samsung, modelo S23"
+    }
+}
