@@ -2,7 +2,7 @@
     "acao": "create",  
     "tabela": "produtos", 
     "dados": {
-        "product_name": "Telefone 2",
-        "product_description": "Telefone da marca Apple, modelo Iphone X"
+        "product_name": "Tablet 1",
+        "product_description": "Tablet da marca Samsung"
     }
 }

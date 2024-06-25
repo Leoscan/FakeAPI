@@ -1,7 +1,6 @@
 package server;
 
 import java.net.Socket;
-
 import classes.BDManager;
 import classes.JsonThreadRun;
 
@@ -19,8 +18,7 @@ public class ClientHandler_Threads implements Runnable {
     }
 
     @Override
-    public void run() {
-        if (rt.ReceberArquivosJSON())
-            rt.realizaAcao(bdConn);
+    public synchronized void run() {
+    	rt.ReceberArquivosJSON(bdConn);
     }
 }

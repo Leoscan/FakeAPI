@@ -29,9 +29,9 @@ public class ServerHandler {
 
                 executor.submit(clientHandler);
             }
-        } finally {
-            serverSocket.close();
-        }
+        }catch (Exception e) {
+			// TODO: handle exception
+		}
     }
 }
 
